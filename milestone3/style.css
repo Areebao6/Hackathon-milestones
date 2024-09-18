@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color:palevioletred;
+}
+.heading{
+    color:rgb(14, 206, 206); 
+    font-size:xx-large ;
+   text-align: center;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+.mainn{
+    max-width: 80%;
+    margin: 0 auto;
+    background-image:url(https://i.pinimg.com/736x/14/e3/2e/14e32e629cae09ae2f95f11616af41c6.jpg);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 100px;
+     position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.personal{
+    color:yellow;
+    background-color: transparent;
+    text-align: center;
+    padding: 20px;
+    font-size: xx-large;
+
+    
+}
+.inputname{
+    color:rgb(14, 206, 206);
+    font-size: larger;
+    margin-left: 20px;
+    padding-top: 30px;
+    text-decoration:solid ;
+    
+}
+.forpic{
+    color:black; 
+}
+input[type="file"]{
+    font-size: 16px;
+    padding: 10px;
+    width: 250px;
+    background-color:transparent;
+    border-radius: 30px;
+    margin-top: 20px;
+    
+
+}
+input[type="file"]::file-selector-button{
+    background-color:purple;
+    cursor: pointer;
+    font-size: large;
+    color:yellowgreen;
+    border-color:#0c7792;
+    border-radius: 10px;
+    
+    
+}
+input[type="file"]::file-selector-button:hover{
+    background-color: black;
+}
+input[type="submit"]{
+    
+    border-radius: 30px;
+    background-color:brown;
+    color: rgb(139, 235, 76);
+    font-size: x-large;
+    padding-bottom: 10px;
+}
+
+
+
+form {
+    margin-bottom: 40px;
+    
+}
+
+input, textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 50%;
+    padding: 8px;
+    font-size: 14px;
+background-color:pink;
+    border-width: 3px;
+    margin: auto;
+    
+}
+    
+#resumePreview {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 8px;
+        text-align: center;
+    border: 3px solid ;
+    color:aqua;
+    padding: 20px;
+    border-radius: 8px;
+    background-image: url(https://i.pinimg.com/736x/14/e3/2e/14e32e629cae09ae2f95f11616af41c6.jpg);
+}
+.resumeinfo{
+    background-color:plum;
+    color:palevioletred;
+
+    
+
+}
+#shareable-link-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+border: 3px solid;
+color:black;
+padding: 20px;
+border-radius: 8px;
+background-image: url(https://i.pinimg.com/736x/14/e3/2e/14e32e629cae09ae2f95f11616af41c6.jpg);
+}
+h2, p {
+    margin: 10px 0;
+}
+
+img {
+    max-width: 150px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+@media (max-width: 600px) {
+    /* Adjusting padding and font size for smaller screens */
+    body {
+        margin: 10px;
+    }
+
+    form {
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+
+    input, textarea {
+        font-size: 14px;
+        padding: 10px;
+       margin: center;        
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    img {
+        max-width: 100px;
+    }
+    input[type="submit"]{
+        padding: auto;
+    }
+    #resume{
+        padding: 15px;
+        margin-bottom: 20px;
+        margin:center;
+    }
+}

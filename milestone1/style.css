@@ -1,0 +1,72 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+    background-color:rgb(4, 83, 107);
+}
+.heading{
+    color: rgba(255, 255, 255, 0.842);
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.main{
+    max-width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-image:url(https://th.bing.com/th/id/R.a58886dab7b4c063d5d12b1321e3f7e9?rik=AVA6vMs0drbtGQ&pid=ImgRaw&r=0);
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 100px;
+    position: relative;
+
+}
+
+.personal{
+    color:rgb(53, 250, 14);
+    
+    text-align: center;
+    padding: 15px;
+    font-size:xx-large;
+}
+
+.forpic{
+    color: rgb(0, 0, 0);
+}
+
+input[type="file"]{
+    font-size: 30px;
+    padding: 10px;
+    width: 450px;
+
+    border-radius: 30px;
+    margin-top: 20px;
+
+}
+
+input[type="file"] ::file.selector-button{
+    background-color:pink;
+    cursor: pointer;
+    font-size: large;
+    color: white;
+    border-color: blue;
+    border-radius: 10px;
+
+}
+
+form{
+    margin-bottom: 40px;
+
+}
+input,textarea{
+    display: block;
+    margin-bottom: 10px;
+    width: 50% ;
+    padding: 8px;
+    font-size: 14px;
+    background-color:rgba(20, 61, 196, 0.212);
+    border-width: 3px;
+    margin: auto;
+}
